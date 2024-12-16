@@ -4,3 +4,19 @@ body{
     align-items: center;
     text-align: center;
 }
+
+#main{
+    border: 5px solid black;
+    padding: 30px;
+}
+
+#obrazek1, #obrazek2, #obrazek3, #jmeno1, #jmeno2, #jmeno3{
+    border: 2px solid black;
+    margin-left: 10px;
+}
+
+#b1, #b2{
+    border-radius: 8px;
+    width: 3cm;
+    height: 1cm;
+}
