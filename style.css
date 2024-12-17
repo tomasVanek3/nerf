@@ -5,9 +5,14 @@ body{
     text-align: center;
 }
 
-#main{
+#main, #second{
     border: 5px solid black;
     padding: 30px;
+}
+
+#ohraniceni{
+    border: 2px solid black;
+    padding: 4px;
 }
 
 #obrazek1, #obrazek2, #obrazek3, #jmeno1, #jmeno2, #jmeno3{
@@ -19,4 +24,16 @@ body{
     border-radius: 8px;
     width: 3cm;
     height: 1cm;
+}
+
+.strana_viditelna{
+    display: block;
+}
+
+.strana_vypnuta{
+    display: none;
+}
+
+#mezera{
+    padding: 8px;
 }

@@ -29,7 +29,41 @@
         </p>
         <img src="images/Empty.png" id="obrazek3"> 
         <div id="buttons">
-            <button type="button" id="b1">Equipment</button> <button type="button" id="b2">Setup</button>
+            <button type="button" id="b1" onclick="StranaVybava()">Equipment</button> <button type="button" id="b2" onclick="StranaNastaveni()">Setup</button>
         </div>
+    </div>
+    <div id="second" class="strana_vypnuta">
+        <h1>Nerf NStrike Elite</h1>
+        <h1>Setup</h1>
+        <img src="images/NStrikeElite_logo.png">
+        <h2>Nastav si svou výzbroj</h2>
+        <div id="ohraniceni">
+            <div id="mezera">
+                Primary weapon
+            </div>
+            <input type="checkbox" name="vyber" value="Empty" id="mezera" onchange="policka()"> Empty <input type="checkbox" name="vyber" value="Infinus" id="mezera" onchange="policka()"> Infinus <input type="checkbox" name="vyber" value="Titan" id="mezera" onchange="policka()"> Titan
+        </div>
+        <br>
+        <div id="ohraniceni">
+            <div id="mezera">
+                Secondary weapon
+            </div>
+            <input type="checkbox" name="vyber2" value="Empty" id="mezera" onchange="policka()"> Empty <input type="checkbox" name="vyber2" value="Stryfe" id="mezera" onchange="policka()"> Strife <input type="checkbox" name="vyber2" value="HyperFire" id="mezera" onchange="policka()"> HyperFire
+        </div>  
+        <br>
+        <div id="ohraniceni">
+            <div id="mezera">
+                Sidearm weapon
+            </div>
+            <input type="checkbox" name="vyber3" value="Empty" id="mezera" onchange="policka()"> Empty <input type="checkbox" name="vyber3" value="FireStrike" id="mezera" onchange="policka()"> FireStrike <input type="checkbox" name="vyber3" value="Disruptor" id="mezera" onchange="policka()"> Disruptor
+        </div>
+        <br>
+        <br>
+        <div id="buttons">
+            <button type="button" id="b1" onclick="StranaVybava()">Equipment</button> <button type="button" id="b2" onclick="StranaNastaveni()">Setup</button>
+        </div>
+        <p id="p">
+            
+        </p>
     </div>
 </body>
