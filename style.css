@@ -34,6 +34,6 @@ body{
     display: none;
 }
 
-#mezera{
-    padding: 8px;
+#select1, #select2, #select3{
+    width: 100  px;
 }
